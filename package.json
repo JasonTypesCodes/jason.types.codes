@@ -1,0 +1,30 @@
+{
+  "name": "jason.types.codes",
+  "version": "1.0.0",
+  "description": "Well, he does.",
+  "scripts": {
+    "build": "shx rm -rf ./build && shx mkdir -p ./build/dist && shx cp ./src/index.html ./build/dist/index.html && node node_modules/.bin/webpack",
+    "serve": "webpack-dev-server --content-base src --inline --port 4100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoltiSubito/jason.types.codes.git"
+  },
+  "author": "Jason Schindler",
+  "homepage": "http://jason.types.codes/",
+  "devDependencies": {
+    "@typopro/web-source-code-pro": "3.4.9",
+    "css-loader": "0.26.1",
+    "file-loader": "0.9.0",
+    "image-webpack-loader": "3.1.0",
+    "jquery": "3.1.1",
+    "less-loader": "2.2.3",
+    "script-loader": "0.7.0",
+    "semantic-ui": "2.2.7",
+    "shx": "0.2.1",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.14.0",
+    "webpack-dev-server": "1.16.2"
+  }
+}
