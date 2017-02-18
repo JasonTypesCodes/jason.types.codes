@@ -1,0 +1,48 @@
+body {
+  font-family: 'TypoPRO Source Sans Pro';
+  font-size: 16px;
+  padding: 10px 50px;
+  background-color: #643B0F;
+  color: #EFE0B9;
+}
+
+a {
+  color: #EFE0B9;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+main header .title {
+  font-family: 'TypoPRO Source Code Pro';
+  color: #E4B04A;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+section {
+  padding-top: 45px;
+}
+
+section#links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section#links figure {
+  flex: 0 0 auto;
+  min-width: 200px;
+  text-align: center;
+  border-left: 2px solid #2A2C05;
+  border-right: 2px solid #2A2C05;
+  margin: 0;
+  margin-left: -2px;
+  margin-bottom: 25px;
+}
+
+section#links figcaption {
+  padding: 10px;
+  font-weight: 600;
+}
