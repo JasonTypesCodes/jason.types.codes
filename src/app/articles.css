@@ -1,0 +1,18 @@
+.article {
+  border-top: 1px solid #2A2C05;
+  padding-bottom: 20px;
+}
+
+.article-title {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.article-details {
+  padding-left: 5px;
+}
+
+.article-details a:link {
+  text-decoration: underline;
+}
+

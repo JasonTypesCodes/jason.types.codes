@@ -6,6 +6,25 @@ body {
   color: #EFE0B9;
 }
 
+h2 {
+  font-family: 'TypoPRO Source Code Pro';
+  color: #E4B04A;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+h3 {
+  font-family: 'TypoPRO Source Code Pro';
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+hr {
+  border: 1px solid #2A2C05;
+  max-width: 1500px;
+}
+
 a {
   color: #EFE0B9;
 }
