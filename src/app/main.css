@@ -25,6 +25,10 @@ main header .title {
   font-size: 60px;
 }
 
+main header .sub {
+  margin-left: 4px;
+}
+
 section {
   padding-top: 45px;
 }
@@ -39,8 +43,6 @@ section#links figure {
   flex: 0 0 auto;
   min-width: 200px;
   text-align: center;
-  border-left: 2px solid #2A2C05;
-  border-right: 2px solid #2A2C05;
   margin: 0;
   margin-left: -2px;
   margin-bottom: 25px;
