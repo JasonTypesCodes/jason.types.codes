@@ -13,6 +13,7 @@
   "author": "Jason Schindler",
   "homepage": "http://jason.types.codes/",
   "devDependencies": {
+    "@typopro/web-coustard": "3.4.9",
     "@typopro/web-source-code-pro": "3.4.9",
     "@typopro/web-source-sans-pro": "3.4.9",
     "css-loader": "0.26.1",
